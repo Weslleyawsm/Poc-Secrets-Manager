@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>4.0.5</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> 
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>secrets-demo</artifactId>
@@ -64,21 +64,21 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- AWS SDK v2 - Secrets Manager -->
+		
 		<dependency>
 			<groupId>software.amazon.awssdk</groupId>
 			<artifactId>secretsmanager</artifactId>
 			<version>2.25.6</version>
 		</dependency>
 
-		<!-- AWS Secrets Manager Caching Client -->
+		
 		<dependency>
 			<groupId>com.amazonaws.secretsmanager</groupId>
 			<artifactId>aws-secretsmanager-caching-java</artifactId>
 			<version>2.0.0</version>
 		</dependency>
 
-		<!-- Jackson para deserializar o JSON do segredo -->
+		
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
